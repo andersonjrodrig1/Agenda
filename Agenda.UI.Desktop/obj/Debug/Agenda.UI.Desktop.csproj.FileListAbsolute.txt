@@ -1,0 +1,9 @@
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.UI.Desktop\bin\Debug\Agenda.UI.Desktop.exe
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.UI.Desktop\bin\Debug\Agenda.UI.Desktop.pdb
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.UI.Desktop\obj\Debug\Agenda.UI.Desktop.csprojAssemblyReference.cache
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.UI.Desktop\obj\Debug\Agenda.UI.Desktop.Form1.resources
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.UI.Desktop\obj\Debug\Agenda.UI.Desktop.Properties.Resources.resources
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.UI.Desktop\obj\Debug\Agenda.UI.Desktop.csproj.GenerateResource.cache
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.UI.Desktop\obj\Debug\Agenda.UI.Desktop.csproj.CoreCompileInputs.cache
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.UI.Desktop\obj\Debug\Agenda.UI.Desktop.exe
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.UI.Desktop\obj\Debug\Agenda.UI.Desktop.pdb

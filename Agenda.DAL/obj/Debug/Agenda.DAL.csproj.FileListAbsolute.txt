@@ -1,0 +1,12 @@
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.DAL\bin\Debug\Agenda.DAL.dll
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.DAL\bin\Debug\Agenda.DAL.pdb
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.DAL\obj\Debug\Agenda.DAL.csprojAssemblyReference.cache
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.DAL\obj\Debug\Agenda.DAL.csproj.CoreCompileInputs.cache
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.DAL\obj\Debug\Agenda.DAL.dll
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.DAL\obj\Debug\Agenda.DAL.pdb
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.DAL\bin\Debug\Agenda.Domain.dll
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.DAL\bin\Debug\Agenda.Domain.pdb
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.DAL\obj\Debug\Agenda.DAL.csproj.CopyComplete
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.DAL\bin\Debug\Dapper.dll
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.DAL\bin\Debug\Dapper.pdb
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.DAL\bin\Debug\Dapper.xml

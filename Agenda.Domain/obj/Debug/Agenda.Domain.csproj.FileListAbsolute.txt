@@ -1,0 +1,6 @@
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.Domain\bin\Debug\Agenda.Domain.dll
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.Domain\bin\Debug\Agenda.Domain.pdb
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.Domain\obj\Debug\Agenda.Domain.csprojAssemblyReference.cache
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.Domain\obj\Debug\Agenda.Domain.csproj.CoreCompileInputs.cache
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.Domain\obj\Debug\Agenda.Domain.dll
+E:\Desenvolvimento\Visual Studio\CSharp\Projetos\AppAgenda\AppAgenda\Agenda.Domain\obj\Debug\Agenda.Domain.pdb
