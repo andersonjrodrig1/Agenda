@@ -2,6 +2,8 @@
 using NUnit.Framework;
 using System;
 using System.Linq;
+using Ploeh.AutoFixture;
+using Moq;
 
 namespace Agenda.DAL.Test
 {
@@ -9,21 +11,23 @@ namespace Agenda.DAL.Test
     public class ContatosTest
     {
         private Contatos _contatos;
+        private Fixture _fixture;
+        private Contato _contato;
 
         [SetUp]
         public void SetUp()
         {
-            _contatos = new Contatos();
+            _contatos = new Mock<Contatos>().Object;
+            _fixture = new Fixture();
+            _contato = new Contato();
         }
 
         [Test]
         public void IncluirContatoTest()
         {
-            var contato = new Contato();
-            contato.Id = Guid.NewGuid();
-            contato.Nome = "Marcos";
+            _contato = _fixture.CreateAnonymous<Contato>();
 
-            _contatos.Adicionar(contato);
+            _contatos.Adicionar(_contato);
 
             Assert.True(true);
         }
@@ -31,38 +35,36 @@ namespace Agenda.DAL.Test
         [Test]
         public void ObterContatoTest()
         {
-            var contato = new Contato();
-            contato.Id = Guid.NewGuid();
-            contato.Nome = "Maria";
+            _contato = _fixture.CreateAnonymous<Contato>();
 
-            _contatos.Adicionar(contato);
-            var resultado = _contatos.Obter(contato.Id);
+            _contatos.Adicionar(_contato);
+            var resultado = _contatos.Obter(_contato.Id);
 
-            Assert.AreEqual(contato.Id, resultado.Id);
-            Assert.AreEqual(contato.Nome, resultado.Nome);
+            Assert.AreEqual(resultado.Id, _contato.Id);
+            Assert.AreEqual(resultado.Nome, _contato.Nome);
         }
 
         [Test]
         public void ObterTodos()
         {
-            var contato = new Contato();
-            contato.Id = Guid.NewGuid();
-            contato.Nome = "Maria";
+            _contato = _fixture.CreateAnonymous<Contato>();
 
-            _contatos.Adicionar(contato);
+            _contatos.Adicionar(_contato);
 
             var list = _contatos.ObterTodos();
-            var resultado = list.Where(l => l.Id == contato.Id).FirstOrDefault();
+            var resultado = list.Where(l => l.Id == _contato.Id).FirstOrDefault();
 
             Assert.IsTrue(list.Any());
-            Assert.AreEqual(resultado.Id, contato.Id);
-            Assert.AreEqual(resultado.Nome, contato.Nome);
+            Assert.AreEqual(resultado.Id, _contato.Id);
+            Assert.AreEqual(resultado.Nome, _contato.Nome);
         }
 
         [TearDown]
         public void TearDown()
         {
             _contatos = null;
+            _fixture = null;
+            _contato = null;
         }
     }
 }
